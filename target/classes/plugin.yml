@@ -1,0 +1,23 @@
+name: AFKShop
+version: 2.0
+main: cz.yourserver.afkshop.AFKShopPlugin
+api-version: '1.21'
+description: AFK marketplace system
+author: Whali
+
+depend:
+  - Vault
+  - WorldGuard
+
+commands:
+  afkshop:
+    description: Open or stop AFK shop
+    usage: /afkshop [stop]
+
+permissions:
+  afkshop.use:
+    description: Use AFK shop command
+    default: true
+  afkshop.admin:
+    description: Admin permission for AFKShop (break shop barrels)
+    default: op

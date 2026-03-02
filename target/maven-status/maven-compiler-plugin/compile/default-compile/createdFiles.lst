@@ -1,0 +1,10 @@
+cz\yourserver\afkshop\HologramManager.class
+cz\yourserver\afkshop\AFKShopPlugin.class
+cz\yourserver\afkshop\GUIListener.class
+cz\yourserver\afkshop\ShopManager.class
+cz\yourserver\afkshop\PlayerListener.class
+cz\yourserver\afkshop\ShopListener.class
+cz\yourserver\afkshop\AfkShop.class
+cz\yourserver\afkshop\Database.class
+cz\yourserver\afkshop\AfkShopCommand.class
+cz\yourserver\afkshop\EconomyManager.class

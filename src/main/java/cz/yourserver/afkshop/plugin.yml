@@ -1,0 +1,22 @@
+name: AFKShop
+version: ${project.version}
+main: cz.yourserver.afkshop.AFKShopPlugin
+api-version: '1.21'
+description: AFK marketplace system
+author: Whali
+
+depend:
+  - Vault
+
+commands:
+  afkshop:
+    description: Open or stop AFK shop
+    usage: /afkshop [stop|setregion]
+
+permissions:
+  afkshop.use:
+    description: Use AFK shop command
+    default: true
+  afkshop.admin:
+    description: Admin permission for AFKShop
+    default: op

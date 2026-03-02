@@ -1,0 +1,21 @@
+# AFKShop Configuration
+max-shops: 50
+region-name: afk_market
+shop-size: 27
+hologram-offset: 1.5
+tax-percent: 0
+
+messages:
+  no-permission: "&cNemáš oprávnění."
+  not-in-region: "&cMusíš být v regionu %region%."
+  max-shops-reached: "&cDosáhnut maximální počet aktivních obchodů (%max%)."
+  shop-created: "&aObchod vytvořen. Napiš /afkshop stop pro ukončení."
+  shop-stopped: "&aObchod ukončen. Výdělek: %amount%"
+  no-shop: "&cNemáš aktivní obchod."
+  already-have-shop: "&cUž máš otevřený obchod. Použij /afkshop stop."
+  not-enough-money: "&cNemáš dostatek peněz. Potřebuješ: %amount%"
+  item-purchased: "&aZakoupil jsi %amount%x %item% za %price%."
+  no-economy: "&cEconomy plugin není dostupný."
+  click-to-set-price: "&eNapiš cenu do chatu (číslo):"
+  shop-editor-title: "&6Shop Editor"
+  shop-buyer-title: "&6%name%'s Shop"
